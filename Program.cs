@@ -10,7 +10,11 @@ namespace Address_Book
     {
         static void Main(string[] args)
         {
-
+            // Creating Object for Addressbook 
+            AddressBook book = new AddressBook();
+            
+            book.Greet();
+            Console.ReadLine();
         }
     }
 }
