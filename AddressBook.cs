@@ -12,6 +12,20 @@ namespace Address_Book
         public void Greet()
         {
             Console.WriteLine("Welcome to the AddressBook");
+            Console.WriteLine();
+        }
+
+        public void ShowUserDetails()
+        {
+            Console.WriteLine("Printing User Details ...");
+            Console.WriteLine($"User First Name: {UserDetails.FirstName}");
+            Console.WriteLine($"User Last Name: {UserDetails.LastName}");
+            Console.WriteLine($"User Address: {UserDetails.Address}");
+            Console.WriteLine($"User City: {UserDetails.City}");
+            Console.WriteLine($"User State: {UserDetails.State}");
+            Console.WriteLine($"User Zip Code: {UserDetails.ZipCode}");
+            Console.WriteLine($"User Phone Number: {UserDetails.PhoneNumber}");
+            Console.WriteLine($"User Email: {UserDetails.Email}");
         }
     }
 }

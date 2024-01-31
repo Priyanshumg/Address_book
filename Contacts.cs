@@ -30,5 +30,94 @@ namespace Address_Book
             phonenumber = UpdatePhoneNumber;
             email = UpdateEmail;
         }
+
+        public string FirstName{
+            get
+            {
+                return firstname;
+            }
+            set
+            {
+                firstname = value;
+            }
+        }
+        public string LastName
+        {
+            get
+            {
+                return lastname;
+            }
+            set
+            {
+                firstname = value;
+            }
+        }
+        public string Address
+        {
+            get
+            {
+                return address;
+            }
+            set
+            {
+                address = value;
+            }
+        }
+        public string City
+        {
+            get
+            {
+                return city;
+            }
+            set 
+            { 
+                city = value; 
+            }
+        }
+        public string State
+        {
+            get
+            {
+                return state;
+            }
+            set 
+            { 
+                state = value; 
+            }
+        }
+
+        public string ZipCode
+        {
+            get
+            {
+                return zipCode;
+            }
+            set
+            {
+                zipCode = value;
+            }
+        }
+        public long PhoneNumber
+        {
+            get
+            {
+                return phonenumber;
+            }
+            set 
+            {
+                phonenumber = value;
+            }
+        }
+        public string Email
+        {
+            get
+            {
+                return email;
+            }
+            set
+            {
+                email = value;
+            }
+        }
     }
 }

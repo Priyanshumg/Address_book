@@ -14,6 +14,7 @@ namespace Address_Book
             AddressBook book = new AddressBook();
             
             book.Greet();
+            book.ShowUserDetails();
             Console.ReadLine();
         }
     }
